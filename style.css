@@ -333,7 +333,9 @@ main{
      .section{
           min-height: 60vh;
      }
-
+     .sidebar-content{
+          display: none;
+     }
 
 
      .m-1{margin: 0.25rem;}
