@@ -65,6 +65,11 @@ main{
      position:fixed;
      width: 15.3%;
 }
+
+.sidebar-content{
+     display: block;
+}
+
 .sidebar-image{
      align-content: center;
 }
@@ -75,6 +80,10 @@ main{
      height: auto;
      height: 20vh;
      border: 10px solid var(--secondary);
+}
+
+.sidebar-menu{
+     display: none;
 }
 
 .sidebar-items{
@@ -218,6 +227,18 @@ main{
 .p-4{ padding: 2rem;}
 .p-5{ padding: 2.5rem;}
 
+.pr-1{ padding-right: 0.5rem;}
+.pr-2{ padding-right: 1rem;}
+.pr-3{ padding-right: 1.5rem;}
+.pr-4{ padding-right: 2rem;}
+.pr-5{ padding-right: 2.5rem;}
+
+.pl-1{ padding-left: 0.5rem;}
+.pl-2{ padding-left: 1rem;}
+.pl-3{ padding-left: 1.5rem;}
+.pl-4{ padding-left: 2rem;}
+.pl-5{ padding-left: 2.5rem;}
+
 .border{
      border: 1px solid black;
 }
@@ -244,13 +265,22 @@ main{
           font-size:1.1rem;
      }
      .sidebar-sticky{
-          min-height: 60vh;
+          min-height: 4vh;
           z-index: inherit;
-          position: relative;
+          position: fixed;
           width: 100%;
           padding: 0;
           padding-top: 1rem;
-     } 
+     }
+
+     .sidebar-menu{
+          display: block;
+     }
+     
+     .sidebar-image,#profile-image{
+          display: none;
+     }
+     
      .section{
           margin-left: 1.5rem;
      }
@@ -280,12 +310,14 @@ main{
 
 
      .sidebar-sticky{
-          min-height: 60vh;
-          z-index: inherit;
-          position: relative;
+          min-height: 0vh;
+          z-index: 9;
+          position: fixed;
           width: 90%;
           padding: 0;
-     } 
+     }
+     
+
 
      .full-name-text , .full-name-text2{
           font-size: 1.4em;
@@ -301,6 +333,9 @@ main{
      .section{
           min-height: 60vh;
      }
+
+
+
      .m-1{margin: 0.25rem;}
      .m-2{margin: 0.5rem;}
      .m-3{margin: 1.5rem;}
@@ -337,6 +372,12 @@ main{
      .p-3{ padding: 1.5rem;}
      .p-4{ padding: 2rem;}
      .p-5{ padding: 2.5rem;}
+
+     .pb-1{ padding-bottom: 0.5rem;}
+     .pb-2{ padding-bottom: 1rem;}
+     .pb-3{ padding-bottom: 1.5rem;}
+     .pb-4{ padding-bottom: 2rem;}
+     .pb-5{ padding-bottom: 2.5rem;}
      
 }
 
