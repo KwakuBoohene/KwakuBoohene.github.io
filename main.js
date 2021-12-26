@@ -1806,8 +1806,7 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 const environment = {
     production: false,
-    // key:'pk_live_b94196b47bd3587384247edb33ac25a1f9b5505c',
-    key: 'pk_test_36e94739dec0d88a562e351343bfed626f01897d'
+    key: 'pk_live_b94196b47bd3587384247edb33ac25a1f9b5505c',
 };
 /*
  * For easier debugging in development mode, you can import the following file
